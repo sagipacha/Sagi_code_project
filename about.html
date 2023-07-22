@@ -1,0 +1,141 @@
+<html>
+
+<head>
+    <title>OKU HOTEL IBIZA</title>
+    <style>
+        .header {
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .homepage {
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .aboutusform {
+            /* border: 5px outset red; */
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: LightGray;
+            text-align: center;
+            width: 50%;
+            height: 85%;
+            margin: auto;
+            padding-top: 20px;
+
+        }
+
+        body {
+            background-color: LightGray;
+
+        }
+
+        form h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        form label {
+            /* display: block; */
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="submit"] {
+            width: 25%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #232121;
+        }
+
+        form input[type="submit"] {
+            background-color: #477a49;
+            color: rgb(18, 16, 16);
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #477a49;
+        }
+
+        .topnav {
+            background-color: lightgray;
+            overflow: hidden;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1><b>OKU HOTEL IBIZA</b></h1>
+
+    </div>
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">Contact us</a>
+    </div>
+
+    <div class="aboutusform">
+        <form id="aboutusform">
+
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/216979267.jpg?k=8d80bcc229890a8e5fbada5dc531d71bb885160cb65a0d7e17b842253e889ea5&o=&hp=1"
+                width="570" height="330"></img><br>
+
+            <p>You can reach us by filling in these details on the current page, We will answer as soon as possible.
+                <br>
+
+                <b>Hotel working hours:</b> <br>
+                Monday-Thursday 9:00-17:00 <br>
+                Friday 9:00-14:00
+            </p>
+
+            <label for="fname">Email</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">First name</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="lmessage">Message</label><br>
+
+            <textarea name="comment" form="aboutusform"></textarea><br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
